@@ -6,10 +6,17 @@
     <title>my new website</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <style>
-        li {
-            color: rgb(211, 54, 48)
+        .dogs-red {
+            color: rgb(211, 54, 48);
         }
 
+        .dogs-font-big {
+            font-size: 30px;
+        }
+
+        #content p {
+            color: chartreuse;
+        }
     </style>
 </head>
 
@@ -31,11 +38,16 @@
         <p><strong>The diffrent kinds of breeds</strong></p>
         <p>Names </p>
         <ul>
-            <li><em>Siberian Husky</em></li>
-            <li><em>Bulldog</em></li>
+            <li class="dogs-red"><em>Siberian Husky</em></li>
+            <li class="dogs-font-big dogs-red"><em>Bulldog</em></li>
             <li><em>Labrador Retriever</em></li>
         </ul>
-        <p> Top three breeds</p>
+        <div id="content">
+            <p> Top three breeds</p>
+        </div>
+        <div id="content">
+            <p>this is not a descendant</p>
+        </div>
         <ol>
             <li>Labrador Retriever</li>
             <li>Golden Retriever</li>
@@ -45,6 +57,4 @@
         <p> &copy; Austin Palozzi </p>
     </main>
     <footer> </footer>
-</body>
-
-</html>
+</body></html>
