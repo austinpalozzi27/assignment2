@@ -1,2 +1,26 @@
-h1 {color: cadetblue;
+h1 {
+    color: dodgerblue;
 }
+
+.red-span {
+    color: red;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+    padding: 10px 10px 10px 10px;
+    border: 5px solid;
+}
+
+.diff-font {
+    font-family: fantasy;
+}
+
+header nav a {color: cornflowerblue;}
+
+body {color: darkcyan}
+   
+
