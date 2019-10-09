@@ -19,8 +19,39 @@ h1 {
     font-family: fantasy;
 }
 
-header nav a {color: cornflowerblue;}
+header nav a {
+    color: cornflowerblue;
+}
 
-body {color: darkcyan}
-   
+body {
+    color: darkcyan
+}
 
+
+.p {
+    font-size: 20px
+}
+
+.ul {
+    font-size: 25px
+}
+
+.ol {
+    font-size: 25px
+}
+
+ul li {
+    text-decoration: underline
+}
+
+ol li {
+    text-decoration: underline
+}
+
+ul li {
+    text-decoration-color: aqua
+}
+
+ol li {
+    text-decoration-color: aqua
+}
